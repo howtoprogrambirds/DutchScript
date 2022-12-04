@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<img src="../images/pattern 2.png">
+<img src="../images/pattern 1.png">
 
 # The DutchScript Language
 
