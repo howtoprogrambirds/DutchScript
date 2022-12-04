@@ -1,0 +1,13 @@
+Bekijk de hoofdlijn'':
+	Zeg "hallo wereld van de hoofdlijn functie".
+	Roep de planeet''.
+	Zeg "hallo wereld weer van vorige hoofdlijn".
+!
+
+Bekijk de planeet'':
+	Zeg "hallo wereld van een andere planeet".
+!
+
+Bekijk het Begin'':
+    Roep de hoofdlijn''.
+!

@@ -1,0 +1,32 @@
+De klas eend:
+	Bekijk het onstaan 'de poten, een snavel, een naam':
+		deze.poten = de poten.
+        deze.snavel = een snavel.
+        deze.naam = een naam.
+	!
+	
+	Bekijk het zeggenschap'':
+		Zeg "Dit is een Eend".
+	!
+    
+    Bekijk de voetenwerk'':
+        Zeg "Het aantal poten zijn:" + deze.poten.
+    !
+!
+
+de vogel = de eend '2 ,1 ,"frans"'.
+de vogel.voetenwerk.
+
+de klas kip afkomstig eend:
+    Bekijk het ontstaan 'de poten, een snavel, een naam, de ogen':
+        super.ontstaan 'de poten, een snavel, een naam'.
+        deze.ogen = de ogen.
+    !
+
+    Bekijk het geluid '':
+        Zeg "POOOOOOOOOOOOOOOOOOOOOOOOOOOK!".
+    !
+!
+
+de haan = de kip '2 ,1 ,"klaasje"'.
+de haan.voetenwerk.

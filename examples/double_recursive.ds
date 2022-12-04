@@ -1,0 +1,37 @@
+Bekijk de evenheidstest 'een n':
+	als een n kleiner 0 :
+	    als een n hetzelfde 0 :
+	        Geef waarheid .
+	    !
+	    anders :
+	        Geef leugen .
+	    !
+	!
+	anders :
+		Geef de evenheidstest 'een n - 2 '.
+	!
+!
+
+Bekijk de onevenheidstest met 'een m':
+	als een m kleiner 1 :
+		als een m hetzelfde 1 :
+	        Geef waarheid .
+	    !
+	    anders :
+	        Geef leugen .
+	    !
+	!
+	anders :
+		Geef de onevenheidstest 'een m - 2 '.
+	!
+!
+
+
+Bekijk het Begin'een n, een m':
+    de resultaatEen is Roep een evenheidstest 'een n'.
+    Zeg "resultaat 1 terug: ", de resultaatEen.
+
+    de resultaatTwee is Roep een onevenheidstest 'een m'.
+    Zeg "resultaat 2 terug: ", de resultaatTwee.
+    Geef de resultaatTwee.
+!

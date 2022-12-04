@@ -1,0 +1,8 @@
+Bekijk het hoizeggen 'de jongensnaam, de tweedejongensnaam':
+	Zeg "Hallo ", de jongensnaam , ", mijn naam is Ingrid,".
+	Zeg "en ik ben ", de tweedejongensnaam ,"ook aangenaam!!".
+!
+
+Bekijk het Begin'een naamEEN, de naamTwee':
+    Roep het hoizeggen 'een naamEEN, een naamTwee'.
+!

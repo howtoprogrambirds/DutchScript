@@ -1,0 +1,15 @@
+Bekijk het tellen 'een n':
+	het resultaat is 0 .
+	totdat de n minder 10 :
+		Zeg "update: ", het resultaat.
+        een n plus 1 .
+        het resultaat plus 1 .
+	!
+	Geef het resultaat.
+!
+
+Bekijk het Begin'een n':
+    de resultaatEen is Roep het tellen 'een n'.
+    Zeg "resultaat terug: ", de resultaatEen.
+!
+
