@@ -28,7 +28,7 @@
 <div align="left">
 <h1><img src="images/coding.png" alt="Logo" width="30" height="30"> DutchScript</h1>
   <p>
-    DutchScript is a fun programming language dedicated to an assignment from my study at Hogeschool Utrecht.
+    DutchScript is a fun programming language dedicated to learn young dutch kids programming in their native language.
     <br />
     <a href="https://github.com/howtoprogrambirds/DutchScript/tree/main/documentation"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,7 +83,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This project is a practical part of the class Advanced Technical Programming at my study: Technical Informatics at the Hogeschool Utrecht. The main goal of the project is: to create an interpreter and compiler that is made with the functional programming paradigm. Both the interpreter and the compiler are made with Python.
+The main goal of the project is: to create an interpreter and compiler.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,9 +185,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Lexer
-- [x] Parser (can't parse classes)
-- [x] Interpreter (can't interpret classes)
+- [ ] Lexer
+- [ ] Parser (can't parse classes)
+- [ ] Interpreter (can't interpret classes)
 
 See the [open issues](https://github.com/howtoprogrambirds/DutchScript/issues) for a full list of proposed features (and known issues).
 
@@ -196,27 +196,18 @@ See the [open issues](https://github.com/howtoprogrambirds/DutchScript/issues) f
 
 <!-- REQUIREMENTS -->
 ## Requirements
-
-- [X] Turing Complete
-- It can do everything what a Turing Machine can do (Changing multiple variables (chaining multiple functions), being able to move from one place to another and running patterns using a while loop).
-- [x] Goto-statements [[testfile]](https://github.com/howtoprogrambirds/DutchScript/blob/main/examples/double_recursive.ds)[[tests]](https://github.com/howtoprogrambirds/DutchScript/blob/main/src/Tests/system_tests.py)
-- [x] Loops [[testfile]](https://github.com/howtoprogrambirds/DutchScript/blob/main/examples/loops.ds)[[tests]](https://github.com/howtoprogrambirds/DutchScript/blob/main/src/Tests/system_tests.py)
-- [x] Classes with inheritance [[abstract syntax tree]](https://github.com/howtoprogrambirds/DutchScript/blob/main/src/Parser/pars_token.py), [[lexer enums]](https://github.com/howtoprogrambirds/DutchScript/blob/main/src/Lexer/lex_token.py)
-- [x] Object printing
-- [x] Decorator [[printFunctionExectution]](https://github.com/howtoprogrambirds/DutchScript/blob/main/src/CommandLineInterface/cli_helpers.py)
-- [x] Type annotation
-- [x] Use a higher order function 3 times:
-- map: [[runCLI]](https://github.com/howtoprogrambirds/DutchScript/blob/01a6eadc494eb0d14eb23c3fd222f981668c9b67/src/CommandLineInterface/cli.py)
-- map: [[interpretIdentifier]](https://github.com/howtoprogrambirds/DutchScript/blob/01a6eadc494eb0d14eb23c3fd222f981668c9b67/src/Interpreter/interpreter.py)
-- map: [[interpretFunction]](https://github.com/howtoprogrambirds/DutchScript/blob/01a6eadc494eb0d14eb23c3fd222f981668c9b67/src/Interpreter/interpreter.py)
-- zip: [[interpretFunction]](https://github.com/howtoprogrambirds/DutchScript/blob/01a6eadc494eb0d14eb23c3fd222f981668c9b67/src/Interpreter/interpreter.py)
+- [ ] Turing Complete
+- [ ] Goto-statements 
+- [ ] Loops 
+- [ ] Object printing
+- [ ] error handler 
 
 ### Interpreter-functionality
-- [x] One or more functies per file
-- [x] Function arguments pass through function call
-- [x] Recursive Function
-- [x] Function can call other functions
-- [x] Return value can be printed out
+- [ ] One or more functies per file
+- [ ] Function arguments pass through function call
+- [ ] Recursive Function
+- [ ] Function can call other functions
+- [ ] Return value can be printed out
 
 <!-- CONTRIBUTING -->
 ## Contributing
